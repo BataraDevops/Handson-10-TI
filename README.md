@@ -6,4 +6,10 @@
 **Mata Kuliah:** Pemrograman Berorientasi Objek
 
 ## Catatan Pembelajaran
-[Tulis 3-5 poin pembelajaran penting yang Anda dapatkan dari handson ini]
+- SRP(Single Responsibility Principle) -> "A class should have one, and only one, reason to change." 
+- OCP(Open/Closed Principle) -> "Software entities should be open for extension, but closed for modification."
+- LSP(Liskov Substitution Principle) -> "Objects of a superclass should be replaceable with objects of a subclass without breaking the application." 
+- Keuntungan Setelah Menerapkan LSP :
+• Predictable - Semua child class berperilaku sesuai ekspektasi parent 
+• Reliable - Tidak ada surprise behavior yang merusak aplikasi 
+• Interchangeable - Bisa ganti child class dengan aman tanpa ubah kode client 

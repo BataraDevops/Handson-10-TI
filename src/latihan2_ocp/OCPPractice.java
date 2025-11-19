@@ -1,8 +1,7 @@
 package latihan2_ocp;
 
-import latihan2_ocp.bad.NotificationService as BadNotificationService;
-// import latihan2_ocp.good.*; // Uncomment setelah refactoring selesai
-// import java.util.*;
+import latihan2_ocp.good.*; // Uncomment setelah refactoring selesai
+import java.util.*;
 
 public class OCPPractice {
     public static void main(String[] args) {
@@ -22,7 +21,7 @@ public class OCPPractice {
         // ===== PART 1: BAD PRACTICE - Melanggar OCP =====
         System.out.println("=== BAD PRACTICE: Melanggar OCP ===\n");
 
-        BadNotificationService badService = new BadNotificationService();
+        latihan2_ocp.bad.NotificationService badService = new latihan2_ocp.bad.NotificationService();
         badService.sendNotification("Hello", "EMAIL", "user@example.com");
         badService.sendNotification("Hello", "SMS", "081234567890");
 
@@ -67,7 +66,7 @@ public class OCPPractice {
          */
 
         // UNCOMMENT CODE DI BAWAH SETELAH REFACTORING SELESAI
-        /*
+
         // Setup senders
         List<NotificationSender> senders = new ArrayList<>();
         senders.add(new EmailSender());
@@ -86,7 +85,6 @@ public class OCPPractice {
         System.out.println("  → Buat class baru WhatsAppSender");
         System.out.println("  → Add ke list senders");
         System.out.println("  → ZERO modification ke NotificationService");
-        */
 
         /*
          * EKSPEKTASI OUTPUT:

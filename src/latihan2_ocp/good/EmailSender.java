@@ -9,7 +9,6 @@ public class EmailSender implements NotificationSender {
     // 2. Print "[EMAIL] Sending to: ... | Content: ..."
     // 3. Implement method getType() return "EMAIL"
 
-    /*
     @Override
     public void send(String recipient, String message) {
         System.out.println("[EMAIL] Sending to: " + recipient + " | Content: " + message);
@@ -19,5 +18,4 @@ public class EmailSender implements NotificationSender {
     public String getType() {
         return "EMAIL";
     }
-    */
 }

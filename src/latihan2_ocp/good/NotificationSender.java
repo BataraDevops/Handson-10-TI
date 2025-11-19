@@ -10,8 +10,7 @@ public interface NotificationSender {
     // 1. Method send(String recipient, String message)
     // 2. Method getType() yang return String (untuk identifikasi channel)
 
-    /*
     void send(String recipient, String message);
     String getType();
-    */
+
 }

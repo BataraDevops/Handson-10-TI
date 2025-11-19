@@ -11,7 +11,6 @@ public class WhatsAppSender implements NotificationSender {
     // 2. Print "[WhatsApp] Sending to: ... | Content: ..."
     // 3. Implement method getType() return "WhatsApp"
 
-    /*
     @Override
     public void send(String recipient, String message) {
         System.out.println("[WhatsApp] Sending to: " + recipient + " | Content: " + message);
@@ -21,5 +20,5 @@ public class WhatsAppSender implements NotificationSender {
     public String getType() {
         return "WhatsApp";
     }
-    */
+
 }

@@ -1,6 +1,6 @@
 package latihan1_srp;
 
-import latihan1_srp.good.*; // Uncomment setelah refactoring selesai
+ import latihan1_srp.good.*; // Uncomment setelah refactoring selesai
 
 public class SRPPractice {
     public static void main(String[] args) {
